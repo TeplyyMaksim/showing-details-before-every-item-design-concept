@@ -1,0 +1,23 @@
+#items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item,
+#item-details {
+  padding: 5px;
+  border: 1px solid slategrey;
+}
+
+#item-details {
+  width: 100%;
+  margin: 5px;
+}
+
+.item {
+  display: inline-block;
+  margin: 5px;
+  width: 250px;
+  border: 1px solid slategrey;
+}
